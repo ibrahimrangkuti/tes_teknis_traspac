@@ -13,14 +13,14 @@
                     <div class="col-md-6">
                         <div class="form-group mb-3">
                             <label for="nip" class="form-label">NIP</label>
-                            <input type="text" name="nip"id="nip" class="form-control @error('nip') is-invalid @enderror">
+                            <input type="text" name="nip"id="nip" class="form-control @error('nip') is-invalid @enderror" value="{{ old('nip') }}">
                             @error('nip')
                                 <div class="invalid-feedback">{{ $message }}</div>
                             @enderror
                         </div>
                         <div class="form-group mb-3">
                             <label for="tempat_lahir" class="form-label">Tempat Lahir</label>
-                            <input type="text" name="tempat_lahir" id="tempat_lahir" class="form-control @error('tempat_lahir') is-invalid @enderror">
+                            <input type="text" name="tempat_lahir" id="tempat_lahir" class="form-control @error('tempat_lahir') is-invalid @enderror" value="{{ old('tempat_lahir') }}">
                             @error('tempat_lahir')
                                 <div class="invalid-feedback">{{ $message }}</div>
                             @enderror
@@ -45,7 +45,7 @@
                         </div>
                         <div class="form-group mb-3">
                             <label for="golongan" class="form-label">Golongan</label>
-                            <input type="text" name="golongan" id="golongan" class="form-control @error('golongan') is-invalid @enderror">
+                            <input type="text" name="golongan" id="golongan" class="form-control @error('golongan') is-invalid @enderror" value="{{ old('golongan') }}">
                             @error('golongan')
                                 <div class="invalid-feedback">{{ $message }}</div>
                             @enderror
@@ -72,7 +72,7 @@
                         </div>
                         <div class="form-group mb-3">
                             <label for="no_hp" class="form-label">No. HP</label>
-                            <input type="text" name="no_hp" id="no_hp" class="form-control @error('no_hp') is-invalid @enderror">
+                            <input type="text" name="no_hp" id="no_hp" class="form-control @error('no_hp') is-invalid @enderror" value="{{ old('no_hp') }}">
                             @error('no_hp')
                                 <div class="invalid-feedback">{{ $message }}</div>
                             @enderror
@@ -81,35 +81,35 @@
                     <div class="col-md-6">
                         <div class="form-group mb-3">
                             <label for="nama" class="form-label">Nama</label>
-                            <input type="text" name="nama" id="nama" class="form-control @error('nama') is-invalid @enderror">
+                            <input type="text" name="nama" id="nama" class="form-control @error('nama') is-invalid @enderror" value="{{ old('nama') }}">
                             @error('nama')
                                 <div class="invalid-feedback">{{ $message }}</div>
                             @enderror
                         </div>
                         <div class="form-group mb-3">
                             <label for="tgl_lahir" class="form-label">Tgl. Lahir</label>
-                            <input type="date" name="tgl_lahir" id="tgl_lahir" class="form-control @error('tgl_lahir') is-invalid @enderror">
+                            <input type="date" name="tgl_lahir" id="tgl_lahir" class="form-control @error('tgl_lahir') is-invalid @enderror" value="{{ old('tgl_lahir') }}">
                             @error('no_hp')
                                 <div class="invalid-feedback">{{ $message }}</div>
                             @enderror
                         </div>
                         <div class="form-group mb-3">
                             <label for="alamat" class="form-label">Alamat</label>
-                            <textarea name="alamat" id="alamat" cols="30" rows="1" class="form-control @error('alamat') is-invalid @enderror"></textarea>
+                            <textarea name="alamat" id="alamat" cols="30" rows="1" class="form-control @error('alamat') is-invalid @enderror">{{ old('alamat') }}</textarea>
                             @error('alamat')
                                 <div class="invalid-feedback">{{ $message }}</div>
                             @enderror
                         </div>
                         <div class="form-group mb-3">
                             <label for="eselon" class="form-label">Eselon</label>
-                            <input type="text" name="eselon" id="eselon" class="form-control @error('eselon') is-invalid @enderror">
+                            <input type="text" name="eselon" id="eselon" class="form-control @error('eselon') is-invalid @enderror" value="{{ old('eselon') }}">
                             @error('eselon')
                                 <div class="invalid-feedback">{{ $message }}</div>
                             @enderror
                         </div>
                         <div class="form-group mb-3">
                             <label for="tempat_tugas" class="form-label">Tempat Tugas</label>
-                            <input type="text" name="tempat_tugas" id="tempat_tugas" class="form-control @error('tempat_tugas') is-invalid @enderror">
+                            <input type="text" name="tempat_tugas" id="tempat_tugas" class="form-control @error('tempat_tugas') is-invalid @enderror" value="{{ old('tempat_tugas') }}">
                             @error('tempat_tugas')
                                 <div class="invalid-feedback">{{ $message }}</div>
                             @enderror
@@ -125,7 +125,7 @@
                         </div>
                         <div class="form-group mb-3">
                             <label for="npwp" class="form-label">NPWP</label>
-                            <input type="text" name="npwp" id="npwp" class="form-control @error('npwp') is-invalid @enderror">
+                            <input type="text" name="npwp" id="npwp" class="form-control @error('npwp') is-invalid @enderror" value="{{ old('npwp') }}">
                             @error('npwp')
                                 <div class="invalid-feedback">{{ $message }}</div>
                             @enderror

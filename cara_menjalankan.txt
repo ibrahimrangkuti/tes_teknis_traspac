@@ -1,0 +1,14 @@
+== SOAL PENALARAN ==
+1. menggunakan node nama_file.js
+2. menggunakan extension vs code "code runner"
+
+== SOAL TEKNIS (LARAVEL) ==
+1. nyalakan webserver apache dan MySQL (xampp/laragon)
+2. buka folder project dan terminal
+3. composer install
+4. ubah .env (database)
+5. php artisan key:generate
+6. php artisan migrate --seed
+7. php artisan serve
+
+TOOLS/FRAMEWORK YANG DIGUNAKAN = BOOTSTRAP, LARAVEL, TEMPALTE ADMINLTE, DATATABLES, DOMPDF
